@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0.2%;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    background-color: #a9a9a9;
+    border-radius: 5px;
+    padding: 4px;
+    transition: all 0.2s;
+}
+
+section.sobre {
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.extras {
+    position: absolute;
+    bottom: -250px;
+    right: -250px;
+    width: 850px;
+    height: 850px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+.extras img {
+    position: absolute;
+    top: -45px;
+    margin-left: 50px;
+}
+
+.social {
+    position: absolute;
+    margin-left: 58%;
+    top: 15%;
+}
+
+.social-media img {
+    position: relative;
+    display: block;
+    width: 20px;
+    margin-top: 30px; 
+}
+
+.texto-sobre {
+    margin-top: 100px;
+}
+
+.texto-sobre h1{
+    font-size: 50px;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    max-width: 800px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#btn {
+    letter-spacing: 1PX;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color:#017143;
+    color: white;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+ 
+
+
+
+   
