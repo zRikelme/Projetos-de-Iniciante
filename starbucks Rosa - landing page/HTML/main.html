@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <title>StarBucks</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../imagens/logo.png" alt="Logo">
+        </div>
+
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">What's New</a>
+                <a href="#">Contact us</a>
+            </nav>
+    </header>
+
+    <section class="conteudo">
+        <div class="cor">
+            <div class="milk">
+                <img src="../imagens/img2.png" alt="milkShake">
+            </div>
+        </div>
+
+        <div class="social-media ">
+            <a href=""><img src="../imagens/facebook.png" alt="facebook"></a>
+            <a href=""><img src="../imagens/instagram.png" alt="instagram"></a>
+            <a href=""><img src="../imagens/twitter.png" alt="twittter"></a>
+        </div>
+
+        <div class="texto">
+            <h1>It's not just Cofee
+                <br>
+                It's <span style="color: #de8fa4; font-weight: bold;">StarBucks</span>
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ipsum unde. Perferendis iusto vel possimus corporis natus mollitia cupiditate quasi, quidem perspiciatis, porro quos quod consequuntur vitae sunt placeat alias.
+            </p>
+            <br>
+            <a id="btn" onclick="clicar()" href="#">Learn More</a>
+        </div>
+
+        <div class="images">
+            <img src="../imagens/thumb1.png" alt="thumb1">
+            <img src="../imagens/thumb2.png" alt="thumb2">
+            <img src="../imagens/thumb3.png" alt="thumb3">
+        </div>
+    </section> <!--conteudo-->
+
+    <script>
+        var button = window.document.getElementById('btn')
+        btn.addEventListener('click', clicar)
+        btn.addEventListener('mouseout', sair)
+
+        function clicar(){
+            button.style.background = 'gray'
+            button.style.color = 'white'
+        }
+
+        function sair() {
+           button.style.background = '#de8fa4'
+           button.style.color = 'white'
+        }
+    </script>
+</body>
+</script>
+</html>
