@@ -1,0 +1,269 @@
+@keyframes Anim {
+    0% {
+        color: #2941AB;
+        background-color: #1ED760;
+        border: none;
+        font-weight: bold;
+        width: 230px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    50% {
+        color: #2941AB;
+        background-color: #1ED760;
+        border: none;
+        font-weight: bold;
+        width: 235px;
+        height: 55px;
+        border-radius: 50px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    100% {
+        color: #2941AB;
+        background-color: #1ED760;
+        border: none;
+        font-weight: bold;
+        width: 230px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+}
+
+.logo img{
+   width: 150px; 
+   margin-right: 50px;
+   cursor: pointer;
+}
+
+nav .menu-links {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+nav a:hover {
+    color: #1ED760;
+}
+
+/* Conteudo */
+
+.container {
+    height: 90vh;
+    width: 100%;
+    background-color: #2941AB;
+}
+
+.title h1 {
+    color: #1ED760;
+    font-family: arial black, sans-serif;
+    font-size: 140px;
+    text-align: center;
+    margin-top: 166px;
+    letter-spacing: -8px;
+}
+
+.text-p p {
+    color: #1ED760;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 24px;
+}
+
+.btn {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 14px;
+}
+
+.btn button {
+    color: #2941AB;
+    background-color: #1ED760;
+    border: none;
+    font-weight: bold;
+    width: 230px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn button:hover {
+   animation: Anim 0.4s ease-in-out;
+}
+
+.space {
+    width: 1px;
+    height: 20px;
+    background-color: white;
+
+}
+
+.green-effect {
+    position: absolute;
+    right: -350px;
+    top: 10%;
+    width: 500px;
+    height: 750px;
+    border-radius: 60%;
+    background-color: #1ED760;
+}
+
+.green-effect-2 {
+    position: absolute;
+    left: -230px;
+    bottom: 0px;
+    background-color: #1ED760;
+    width: 300px;
+    height: 500px;
+    border-radius: 0% 50% 50% 0px;
+}
+
+.green-effect-3 {
+    position: absolute;
+    left: -220px;
+    bottom: 0px;
+    background-color: #1ED760;
+    width: 350px;
+    height: 200px;
+    border-radius: 50% 50% 0px 0px;
+}
+
+footer {
+    background-color: black;
+}
+
+.logo-footer img {
+    position: absolute;
+    top: 1030px;
+    margin-left: 150px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.container-footer {
+    display: flex;   
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.info a:hover {
+    color: #1ED760;
+}
+
+.info ul li {
+    margin-top: 20px;
+}
+
+
+.sub-title {
+    color: #919496;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.social-media {
+    margin-right: 100px;
+}
+
+.social-media img {
+    margin-bottom: 150px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.extras {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+ .extras nav a{
+     font-size: 12px;
+     font-weight: normal;
+     color: #919496;
+     text-decoration: none;
+     margin-left: 20px;
+ }
+
+ .extras nav a:hover {
+     color: #1ED760;
+ }
+
+ .extras nav {
+     margin-left: 40px;
+ }
+
+.finaly-texts p {
+    color: white;
+}
+
+.finaly-texts p {
+    text-align: right;
+    color: #919496;
+    font-size: 12px;
+}
+
+.finaly-texts img {
+    width: 20px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+ 
+
+
+
